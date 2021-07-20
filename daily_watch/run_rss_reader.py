@@ -10,11 +10,9 @@ parser.add_argument("-fkeys", "--filter_keys", dest='filter_keys', help="give a 
                     action="store", default=None)
 parser.add_argument("-whook", "--webhook", dest='webhook', help="give a webhook url to your slack channel",
                     action="store", default=None)
-parser.add_argument("-murllog", "--max_url_log", dest='max_url_log', help="the maximum urls saved in the log file, more than that will be truncated from the head ",
-                    action="store", default=500)
 
 args = parser.parse_args()
 
 dog = pwd.WatchDog(args.seen_files, args.webhook)
 
-dog.run(args.watch_list, args.filter_keys, args.max_url_log)
+dog.run(args.watch_list, args.filter_keys)
