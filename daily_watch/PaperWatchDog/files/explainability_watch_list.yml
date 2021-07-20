@@ -1,0 +1,15 @@
+TDS:
+  journal: "Towards data science"
+  url: "https://towardsdatascience.com/feed"
+  colour: "#946038"
+  thumb: "https://miro.medium.com/max/1196/1*LGIUFgiw1GkElFM4vBX0Sg.png"
+  max_len: 400
+  max_msg: 20
+arxiv:
+  journal: "arXiv (Stat.ML)"
+  url: "http://arxiv.org/rss/stat.ML"
+  colour: "#2eb886"
+  thumb: "https://pbs.twimg.com/profile_images/958432197987401728/QLeEVLC__400x400.jpg"
+  max_len: 600
+  max_msg: 20
+
